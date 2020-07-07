@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--IE compatibility meta-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <!--booststrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    
+    <!--our style must be the last one-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+
+    <title>Presentation</title>
+</head>
+<body>
+   <header>
+    <section class="exemple-section">
+        <div class="header-bar pt-3">
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="presentation.html">Presentation </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item" >
+                                  <a class="nav-link" href="presentation.html">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="presentation_bootstrap.html">Bootstrap</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="presentation_animate.html">Animate.css</a>
+                                </li>
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="exemple.html">Exemple</a>
+                                  </li>
+                                
+                              </ul>
+                            </div>
+                            <div class="dropdown">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Download Links  </a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://getbootstrap.com/docs/4.4/getting-started/download/"> Bootstrap</a>
+                                <a class="dropdown-item" href="https://daneden.github.io/animate.css/"> Animate.css </a>
+                                <a class="dropdown-item" href="https://jquery.com/download/"> Jquery</a>                                  </div>
+                            </div>
+                            <!--<div class="dropdown">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources  </a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.w3schools.com"> w3schools</a>
+                                <a class="dropdown-item" href="https://www.wikipedia.org"> wikipedia </a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=DbUjq8J6RK8&list=PLDoPjvoNmBAy0dU3C3_lNRTSTtqePEsI2&index=1">el zero web school</a>  
+                                <a class="dropdown-item" href=" https://getbootstrap.com">bootstrap</a>   
+                             </div>
+                            </div>-->
+                          </nav>
+                          
+        </div>
+        </div>
+
+        <div class="banner">
+            <h1 class="animated flash">Formulaire d'inscription</h1>
+            <p class="mx-auto animated flash"> Avec Bootstrap </p>
+        </div>
+    </section>
+    </header>
+
+
+    <section>
+
+        <section class="second-section-exemple pt-5 pb-5">
+            <div class="container form">
+
+
+
+                <div class="row pb-5">
+
+                    <div class="col-3"><img src="./images/ensa .png" alt="..." class="img-thumbnail"></div>
+                    <div class="col-9 pt-4"><p>Ecole Nationale des Sciences Appliquées de Tanger</p>
+                        <h2>Formulaire d'inscription DCA</h2></div>
+                 </div>
+
+
+                <form>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputnom">Nom</label>
+                          <input type="text" class="form-control" >
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPrenom">Prénom</label>
+                          <input type="text" class="form-control">
+                        </div>
+                      </div>
+                    <div class="form-row">
+
+                      
+                      <div class="form-group col-md-6">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" >
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4" >
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">Adresse</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                    
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Ville</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputState">Région</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option value="1">Tanger, Tétouan, Al Hoceïma</option>
+                            <option value="2">Fès, Meknès</option>
+                            <option value="3">Casablanca, Settat</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                          <label for="inputZip">Code postal</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0">Je suis</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Homme
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Femme
+                            </label>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                      <div class="row">
+
+
+                      </div>
+                      <button type="button" class="btn btn-warning">Envoyer</button>
+                  </form>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer">
+            © 2019 DCA. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

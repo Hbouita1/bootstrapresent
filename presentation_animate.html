@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animate.css</title>
+    <meta charset="UTF-8">
+    <!--first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--IE compatibility meta-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--animate.css-->
+     <link rel="stylesheet" href="css/animate.css">
+     <!--bootstrap-->
+     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+     <!--our style must be the last one-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+
+    <link rel="canonical" href="http://creersonsiteweb.net/page-css-animations" /> 
+</head>
+<body>
+    
+    
+       <!--bootstrap doen't work without Jquery-->
+       <script src="js/jqery.js"></script>
+       <script src="js/poper.min.js"></script>
+       <!-- js must be the last thing-->
+       <script src="js/bootstrap.min.js"></script>
+
+       <section class="main-section-animate">
+        <div class="header-bar pt-3">
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">Presentation </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="presentation.html">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="presentation_bootstrap.html">Bootstrap</a>
+                                </li>
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="presentation_animate.html">Animate.css</a>
+                                </li>
+
+                                <li class="nav-item">
+                                  <a class="nav-link" href="exemple.html">Exemple</a>
+                                </li>
+                                
+                              </ul>
+                            </div>
+                            <div class="dropdown">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Download Links  </a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://getbootstrap.com/docs/4.4/getting-started/download/"> Bootstrap</a>
+                                <a class="dropdown-item" href="https://daneden.github.io/animate.css/"> Animate.css </a>
+                                <a class="dropdown-item" href="https://jquery.com/download/"> Jquery</a>                                  </div>
+                            </div>
+                            <!--<div class="dropdown">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources  </a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://www.w3schools.com"> w3schools</a>
+                                <a class="dropdown-item" href="https://www.wikipedia.org"> wikipedia </a>
+                                <a class="dropdown-item" href="https://www.youtube.com/watch?v=DbUjq8J6RK8&list=PLDoPjvoNmBAy0dU3C3_lNRTSTtqePEsI2&index=1">el zero web school</a>  
+                                <a class="dropdown-item" href=" https://getbootstrap.com">bootstrap</a>   
+                             </div>
+                            </div>-->
+                          </nav>
+                          
+        </div>
+        </div>
+
+        <div class="banner-animate">
+            <h1 class="animated zoomIn">Des effets d'animation CSS </h1>
+            <p class="mx-auto animated bounceInLeft"> avec animate.css</p>
+        </div>
+       </section>
+
+        <section class="second-section-animate pt-5 pb-5">
+        <div class="container col-md-9">
+            <h3>Qu'est ce que <span class="badge badge-secondary">Animate.css ?</span></h3>
+            <p class="pt-3">Animate.css est une bibliothèque gratuite de CSS animation que vous pouvez utiliser facilement et sans effort dans vos projets web. </p>
+           
+            <h3>Pour commencer</h3>
+            <p class="pt-3">Avec Animate.css, tout ce que vous avez besoin est d'inclure les propriétés de classe dans l'élément HTML.</p>
+
+            <p>Premièrement, vous devez inclure le fichier de style animate.css dans head. </p>
+           <img src="./images/code5.png">
+            <p>Pour télécharger la bilbliothèque complète, rendez-vous au site web <a href="https://daneden.github.io/animate.css/">Allez-y</a></p>
+            
+            <h3>Syntaxe HTML</h3>
+            <p class="pt-3">Pour appliquer une animation à un élément HTML, il faut ajouter la propriété "animated" à l'attribut "Class" de votre élément suivi du nom de l'animation. Exemple:</p>
+            <img src="images/code4.png">
+            <p>Voici ce que vous devrez ajouter à votre balise :</p>
+            <ul class="list-group mb-4 mt-3">
+              <li class="list-group-item list-group-item-danger">la classe « animated » : sans celle-ci, l’animation ne fonctionnera pas. Cette classe lance l’animation uniquement au chargement de la page.</li>
+              <li class="list-group-item list-group-item-success">la classe « infinite » : celle-ci est facultative et permet de jouer l’animation à l’infini.</li>
+              <li class="list-group-item list-group-item-warning">la classe d’animation : cette classe appliquera l’animation souhaitée sur votre balise.</li>
+            </ul>
+
+            <p>Voici quelques-unes des nombreuses classes mises à votre disposition par la bibliothèque :</p>
+            <div class="mb-3 mt-3">
+                  <span class="badge badge-primary">bounce</span>
+                  <span class="badge badge-secondary">flash</span>
+                  <span class="badge badge-success">pulse</span>
+                  <span class="badge badge-danger">rubberBand</span>
+                  <span class="badge badge-warning">shake</span>
+                  <span class="badge badge-info">headShake</span>
+                  <span class="badge badge-light">swing</span>
+                  <span class="badge badge-dark">tada</span>
+
+                  <span class="badge badge-primary">wobble</span>
+                  <span class="badge badge-secondary">jello</span>
+                  <span class="badge badge-success">bounceIn</span>
+                  <span class="badge badge-danger">fadeIn</span>
+                  <span class="badge badge-warning">fadeOut</span>
+                  <span class="badge badge-info">flipInX</span>
+                  <span class="badge badge-light">lightSpeedIn</span>
+                  <span class="badge badge-dark">rotateIn</span>
+
+                  <span class="badge badge-primary">rotateOutDownLeft</span>
+                  <span class="badge badge-secondary">hinge</span>
+                  <span class="badge badge-success">rollOut</span>
+                  <span class="badge badge-danger">zoomIn</span>
+          </div>
+            <p>L'animation est implémentée une seule fois lors du chargement de la page. Pour pouvoir contrôler les animations depuis un événement, vous devez utiliser Javacript.</p>
+
+
+            <h3>Options CSS additionnelles</h3>
+
+            <p>Pour pouvoir customiser la durée et la temporisation des animations, vous pouvez faire à des options CSS.</p>
+
+            <p>Pour customiser l'itération d'une animation, vous utilisez la propriété CSSanimation-iteration-count</p>
+
+              <p>Pour une animation infinie, vous utilisez la valeur infinite . Utilisez une valeur numérique pour nombre d'itération bien déterminée. Exemple:</p>
+              <img src="./images/code1.png">
+              <img src="./images/code2.png">
+
+              <p>Pour controler la vitesse ou la lenteur de l'animation, utilisez la propriété animation-duration. Pour contrôler le retard de l'animation, utilisez la propriété animation-delay. Exemple:</p>
+              <img src="./images/code3.png">
+            </img>
+
+</section>
+
+    <footer>
+        <div class="footer">
+            © 2019 DCA. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap</title>
+    <meta charset="UTF-8">
+    <!--first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--IE compatibility meta-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!--animate.css-->
+     <link rel="stylesheet" href="css/animate.css">
+     <!--bootstrap-->
+     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+     <!--our style must be the last one-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Courgette&display=swap" rel="stylesheet">
+    <script src="js/myjs.js"></script>
+</head>
+<body>
+  <header>
+    <section class="bootstrap-section">
+        <div class="header-bar pt-3">
+            <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="presentation.html">Presentation </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                              <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="presentation.html">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                 <li class="nav-item active">
+                                   <a class="nav-link" href="presentation_bootstrap.html">Bootstrap</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="presentation_animate.html">Animate.css</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="exemple.html">Exemple</a>
+                                  </li>
+                                
+                              </ul>
+                            </div>
+                            <div class="dropdown">
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Download Links  </a>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="https://getbootstrap.com/docs/4.4/getting-started/download/"> Bootstrap</a>
+                                <a class="dropdown-item" href="https://daneden.github.io/animate.css/"> Animate.css </a>
+                                <a class="dropdown-item" href="https://jquery.com/download/"> Jquery</a>                                  </div>
+                            </div>
+                          </nav>
+                          
+        </div>
+        </div>
+
+        <div class="banner">
+            <h1 class="animated flash">Bootstrap</h1>
+            
+        </div>
+    </section>
+    </header>
+
+    <section class="second-section-boot pt-5 pb-5">
+      <div class="container col-md-9">
+            <div class="card" >
+               <div class="card-body">
+                  <h1 class="card-title">Qu'est-ce que Bootstrap? </h1>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Bootstrap est un front-end framework libre  pour le développement web plus rapide et plus facile</li>
+                    <li class="list-group-item">Bootstrap comprend HTML et des modèles de conception à base de CSS pour la typographie, des formes, des boutons, tables, navigation, modaux, carrousels d'image et bien d'autres, ainsi que des plugins en option JavaScript</li>
+                    <li class="list-group-item">Bootstrap vous donne également la possibilité de créer facilement des conceptions sensibles</li>
+                  </ul>                
+                 </div>
+              </div>
+          </div>
+          <div class="container col-md-9">
+            <div class="card" >
+                <div class="card-body">
+                    <h1 class="card-title">Historique</h1>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Avant l'arrivée de Bootstrap, plusieurs bibliothèques existaient, ce qui menait à des incohérences et à un coût de maintenance élevé.
+
+                        Cette plate-forme a été conçue par deux développeurs faisant partie de la mouvance de développeurs qui gravitent autour de Twitter, Mark Otto et Jacob Thornton, et avait le nom de Twitter Blueprint en 2010.
+                        
+                        Le premier déploiement à échelle réelle eut lieu lors de la première hackweek organisée par Twitter.
+                        
+                        En août 2011, Twitter place Bootstrap sous licence open source. En février 2012, Bootstrap est le projet le plus populaire sur GitHub.</li>
+                     </ul>>          
+                  </div>
+             </div> 
+          </div>
+          <div class="container col-md-9">
+            <div class="card" >
+                <div class="card-body">
+                    <h1 class="card-title">Pourquoi utiliser Bootstrap?</h1>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Facile à utiliser: Tout le monde avec seulement des connaissances de base du langage HTML et CSS peut commencer à utiliser Bootstrap</li>
+                      <li class="list-group-item">Fonctionnalités réactives: CSS réactives de Bootstrap se adapte aux téléphones, les tablettes et les ordinateurs de bureau</li>
+                      <li class="list-group-item">Approche mobile d' abord: Dans Bootstrap, styles mobile premiers font partie du cadre de base</li>
+                      <li class="list-group-item">Compatibilité du navigateur: Bootstrap 4 est compatible avec tous les navigateurs modernes (Chrome, Firefox, Internet Explorer 10+, Edge, Safari et Opera)</li>
+                    </ul>            
+                  </div>
+             </div> 
+          </div>
+          <div class="container col-md-9">
+            <div class="card" >
+                <div class="card-body">
+                    <h1 class="card-title">Comment installer Bootstrap</h1>
+                    <p>Bootstrap s'installe facilement en référençant quelques fichiers sur son serveur ou même en passant directement par des CDN.</p>
+                  <p>
+                    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#fichier" aria-expanded="false" aria-controls="multiCollapseExample2">Télécharger les fichiers bootstrap</button>
+                    <button class="btn btn-outline-success" type="button" data-toggle="collapse" data-target="#cdn" aria-expanded="false" aria-controls="multiCollapseExample2">Inclure Bootstrap 4 d'un CDN</button>
+                    <button class="btn btn-outline-warning" type="button" data-toggle="collapse" data-target="#ex" aria-expanded="false" aria-controls="multiCollapseExample2">Exemple</button>
+                  </p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="fichier">
+                        <div class="card card-body">
+                          <div class="alert alert-primary" role="alert">
+                            L'installation de Bootstrap est simple: Allez vers <a href="https://getbootstrap.com" class="alert-link">getbootstrap.com</a> et appuyer sur le button Download
+                          </div>
+                          <ul class="list-unstyled">
+                            <li>Voyons les principaux fichiers :
+                             <img src="images/Capture.PNG" alt="">
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="alert alert-light" role="alert">
+                        Pour que Bootstrap fonctionne il faut le déclarer dans les pages HTML, qui doivent être impérativement au format HTML 5, il faut donc prévoir le bon DOCTYPE :
+                        <img src="images/bs1.PNG" alt="">
+                       
+                        Il faut ensuite déclarer au minimum le fichierbootstrap.min.css (oubootstrap.css) dans l'en-tête de la page web :
+                        <img src="images/bs2.PNG" alt="">
+                        À partir de là toutes les classes sont accessibles… Évidemment vous devez adapter le lien selon la localisation de vos fichiers.
+                        <br><br>
+                        Si vous utilisez des composants JavaScript, vous devez également référencer la librairie de Bootstrap ainsi quejQuery (la librairie jQuery ne fait pas partie des fichiers téléchargés avec Bootstrap et doit être récupérée indépendamment sur <a href="http://jquery.com/">http://jquery.com/</a> :
+                        <img src="images/bs3.PNG" alt="">
+                      </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="cdn">
+                        <div class="card card-body">
+                          <ul class="list-unstyled">
+                            <li>CDN est l'acronyme de « Content delivery network » ; c'est un réseau de serveurs qui met à disposition des librairies. Il devient ainsi inutile de prévoir ces librairies sur son propre serveur, il suffit de « pointer » vers eux. Il y a des avantages à utiliser un CDN :
+                              <ul>
+                                <li>Libération de ressources et de la bande passante sur son propre serveur ;</li>
+                                <li>Parallélisation des téléchargements (un CDN est sur plusieurs serveurs) ;</li>
+                                <li>Accélération du chargement ;</li>
+                                <li>Diminution de la latence ;</li>
+                                <li>Actualisation automatique des librairies ;</li>
+                                <li>Amélioration du référencement…</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <div class="alert alert-light" role="alert">
+                            Si vous utilisez des CDN, l'installation en est d'autant simplifiée. Vous n'avez qu'à adapter les appels des librairies :
+                          
+                        <img src="images/bs4.PNG" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="ex">
+                        <div class="card card-body">
+                          L'exemple suivant montre le code d'un Bootstrap de base
+                          <img src="images/bs5.PNG" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                  </div>
+                  </div>
+             </div> 
+          </div>
+       
+          <div class="container col-md-9">
+            <div class="card" >
+              <div class="card-body">
+          <h1 class="card-title">Certains composants de bootstrap</h1>
+          <form class="form">
+            <div class="form-group">
+              <select class="form-control" id="cmp" onchange="displaycode(this.id)">
+                <option class="firstc">composants</option>
+                <option>button</option>
+                <option>Badge</option>
+                <option>alert</option>
+                <option>spinner</option>
+              </select>
+            </div>
+             <div id="button">
+            </div>
+            <div id="Badge">
+            </div>
+            <div id="alert">
+            </div> <div id="spinner">
+            </div>
+          </form>
+            </div>
+          </div>
+          </div>
+          </div>
+     </section>
+    <footer>
+      <div class="footer">
+          © 2019 DCA. All Rights Reserved.
+      </div>
+  </footer>
+     <!--bootstrap doen't work without Jquery-->
+     <script src="js/jqery.js"></script>
+     <script src="js/poper.min.js"></script>
+     <!-- js must be the last thing-->
+     <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
